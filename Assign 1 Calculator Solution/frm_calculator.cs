@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-//  By: David Parkin
+//  By: 
 //  Date: 5/04/2018
 //  Purpose: Simple calculator reduced down in size with functions
 //  Notes: to simplify further at some stage.. 
