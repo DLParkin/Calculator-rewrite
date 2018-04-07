@@ -15,7 +15,9 @@ namespace Assign_1_Calculator_Solution
             InitializeComponent();
         }
 
-        float num1 = 0, num2 = 0, result;
+        private float num1 = 0;
+        private float num2 = 0;
+        private float result;
        
         //Add
         private void btn_add_Click(object sender, EventArgs e)
@@ -80,7 +82,8 @@ namespace Assign_1_Calculator_Solution
                     }
                 }
         }
-        //Validate user input as correct type
+        //Validate user input to confirm is of float type, if input is
+        // of the wrong type notify the user and restart
         private bool validateInput(ref TextBox txtEntry,ref float value)
         {
             if(!float.TryParse(txtEntry.Text, out value))
